@@ -12,6 +12,7 @@
 </head>
 
 <body id="chat">
+<?= $this->Flash->render() ?>
   <header>
     <h1>Variableavalanchezueha Room</h1>
     <p>logged in: <?= h($authuser['username']) ?></p>
